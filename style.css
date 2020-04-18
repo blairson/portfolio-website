@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+font-family: verdana, sans-serif;
+text-align: center;
+color: #ffffff;
+font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin: 70px auto;
+    width: 50%;
+    color: #527318;
+    font-family: 'Sacramento', cursive;  
+    font-size: 565%; 
+}
+
+h2 {
+    color: #527318;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	line-height: 2;
+}
+
+a {
+	color: #170a19;
+	text-decoration: none;
+}
+
+.border {
+    border-style: none;
+    border-top: dotted;
+    border-color: #de7119;
+    border-width: 5px;
+    background-color: #18b0b0;
+    width: 5%;
+    margin: auto;
+}
+
+.top-container {
+    position: relative;
+     padding-top: 100px;
+    background-color: #18b0b0;
+}
+
+.middle-container {
+  
+  background-color: #347474;
+}
+
+.cloud-one {
+    margin: 0 auto;
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    right: 300px;
+	top: 20px;	
+}
+
+.cloud-two {
+    margin: 350px auto;
+    width: 10%;
+    height: 5%;
+	position: absolute;
+    left: 300px;
+    top: 100px;
+}
+
+.intro {
+   padding-bottom: 70px;
+} 
+
+.skills {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.bio {
+    background-color: #18b0b0;
+}
+
+.mypic {
+    margin-top: 100px;
+    width: 150px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 170px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img {
+    width: 25%;
+    border: none;
+    border-radius: 50px;
+    float: left;
+    margin-right: 30px;
+}
+
+/* To leave a paragraph under an image when you float, use "clear"
+.desc {
+    clear: left;
+} */
+
+.shecodes {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.contact-me {
+    padding-top: 50px;
+}
+
+.contact-h2 {
+    padding-bottom: 30px;
+    color: #170a19;
+}
+
+
+.btn {
+    margin: 30px 0;
+	box-shadow: 0px 8px 19px -9px #3e7327;
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color:#77b55a;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:14px 32px;
+	text-decoration:none;
+	text-shadow:-1px 5px 23px #5b8a3c;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	background-color:#72b352;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+	background-color: #216353;
+}
